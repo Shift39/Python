@@ -1,0 +1,29 @@
+ def hell( ):
+  print('-- calculadora do Marco -- \n - soma - 1 \n - subtração - 2 \n - divisão - 3 \n - multiplicação - 4')
+  if (int(input('selecione a opção desejada: '))) == 1:
+
+
+def hell( ):
+...    print('-- calculadora do Marco -- \n - soma - 1 \n - subtração - 2 \n - divisão - 3 \n - multiplicação - 4')
+...    selena = int(input('selecione a operação: '))
+...    if selena == 1:
+...      n = int(input('primeiro numero: '))
+...      b = int(input('segundo numero: '))
+...      soma = n + b
+...      print(soma)
+...    if selena == 2:
+         z = int(input('primeiro numero: '))
+	 y = int(input('segundo numero: '))
+	 ita = z - y
+         print(ita)
+       if selena == 3:
+         f = int(input('primeiro numero: '))
+	 g = int(input('segundo numero: '))
+	 ila = f % g
+         print(ila)
+       if selena == 4:
+         a = int(input('primeiro numero: '))
+	 m = int(input('segundo numero: '))
+	 iva = a * m
+         print(iva)
+  
